@@ -1,0 +1,4 @@
+pillow
+streamlit
+google-generativeai
+huggingface_hub
