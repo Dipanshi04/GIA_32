@@ -106,7 +106,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Setup
-api_key = st.secrets["api_key "] 
+api_key = st.secrets["api_key"] 
 hf_token = st.secrets["hf_token"] 
 n
 if not api_key:
