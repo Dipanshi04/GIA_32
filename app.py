@@ -106,9 +106,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Setup
-api_key = "AIzaSyAxrUrBFEp0qbb2lVBWPe0W89iH8ztiQKI"
-hf_token = "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"
-
+api_key = st.secrets["GEMINI_API_KEY"] 
+hf_token = st.secrets["hf_token"] 
+n
 if not api_key:
     st.error("Missing API_KEY environment variable.")
     st.stop()
